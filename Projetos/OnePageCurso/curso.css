@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+}
+
+header {
+    background-color: yellow;
+    height: 22em;
+    background-image: url(./imagens/bg-2.jpg);
+    background-size: cover;
+    max-width: 100%;
+    background-position: center bottom;
+}
+
+
+ul{
+    display: flex;
+    justify-content: end;
+    background-color: pink;
+    padding: 30px 60px 30px 30px;
+    gap: 30px;
+}
+
+li {
+    background-color: rgb(136, 136, 240);
+    padding: 15px;
+}
